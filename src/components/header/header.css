@@ -1,0 +1,241 @@
+header{
+    height: 40vh;
+    padding-top: 7rem;
+    box-sizing: content-box;
+}
+
+.header_container {
+    height: 100%;
+    width: 100%;
+   text-align: center;
+   position: relative; 
+}
+
+/* ============================ CTA ========================== */
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ============================ SOCIALS ========================== */
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 20%;
+    bottom: 3rem;
+}
+
+.header_socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ============================ IMG ========================== */
+.myPhoto {
+    background: linear-gradient(white,transparent);
+    width: 38%;
+    height: 100vh;
+    position: absolute;
+    left: calc(50% - 17rem);
+     margin-top: 3rem;
+}
+.myImg{
+    border: 1px solid black;
+    aspect-ratio: 1/1;
+    width: 300px;
+    height: 22vh;
+    object-fit: contain;
+    height: 300px;   
+    border-radius:50%;
+}
+/* ============================ SCROLL DOWN ========================== */
+
+.scroll_down {
+    position: absolute;
+    right: 18%;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* ================================= MEDIA QUERIES (MEDIUM DEVICES) ===================== */
+@media screen and (max-width: 1024px ){
+   header {
+       height: 50vh;     
+   }
+   .myPhoto {
+    left: calc(50% - 11rem);
+     margin-top: 3rem;
+}
+   
+}
+
+/* ================================= MEDIA QUERIES (SMALL DEVICES) ===================== */
+
+@media screen and (max-width: 820px ){
+    header{
+        height: 50vh;
+    }
+    .myPhoto {
+        left: calc(50% - 9rem);
+         margin-top: 3rem;
+    } 
+}
+@media screen and (max-width: 600px ){
+    header {
+        height: 60vh;
+    }
+    .header_socials , .scroll_down {
+        display: none;
+    }
+
+    .myPhoto {
+        left: calc(50% - 9rem);
+         margin-top: 6rem;
+    } 
+    .header_socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8rem;
+        position: absolute;
+        left: 40%;
+        bottom: 3rem;
+        top: 2.2rem;
+    }
+    .icon_size{
+        width: 40px;
+        height: 40px;
+    }
+   
+}
+@media screen and (max-width: 375px ){
+    header {
+        height: 70vh;
+    }
+    
+    .header_socials {
+        display: none;
+    }
+    .scroll_down { 
+        top: 90;
+    }
+    .myPhoto {
+        left: calc(50% - 9rem);
+         margin-top: 6rem;
+    } 
+    .header_container {
+        position: relative;
+    }
+    .header_socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8rem;
+        position: absolute;
+        left: 8.5rem;
+        bottom: 3rem;
+        top: 17rem;
+    }
+    .icon_size{
+        width: 30px;
+        height: 30px;
+    }
+   
+}
+
+@media screen and (max-width: 420px ){
+    header {
+        height: 65vh;
+        font-size: 20px;
+    }
+    .header_container {
+        /* position: relative; */
+    }
+    .header_socials {
+        margin-top: 75%;
+        margin-left: -18%;
+    }
+    .icon_size{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 360px ){
+    header {
+        height: 70vh;
+        font-size: 20px;
+    }
+    .header_socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8rem;
+        position: absolute;
+        left: 7.5rem;
+        bottom: 3rem;
+        top: 14rem;
+    }
+    .icon_size{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+ @media screen and (max-width: 540px ){
+    header {
+        height: 80vh;
+        font-size: 20px;
+    }
+    .header_socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8rem;
+        position: absolute;
+        left: 13.5rem;
+        bottom: 3rem;
+        top: 3.5rem;
+    }
+    .icon_size{
+        width: 30px;
+        height: 30px;
+    }
+} 
+
+@media screen and (max-width: 280px ){
+    header {
+        height: 75vh;
+        font-size: 14px;
+    }
+    .header_socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8rem;
+        position: absolute;
+        left: 5.5rem;
+        bottom: 3rem;
+        top: 11.5rem;
+    }
+    .icon_size{
+        width: 30px;
+        height: 30px;
+    }
+    .myPhoto {
+        left: calc(50% - 6.1rem);
+         margin-top: 6rem;
+    }
+    .myImg {
+        width: 269px;
+    }
+} 
