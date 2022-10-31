@@ -89,7 +89,7 @@ header{
          margin-top: 3rem;
     } 
 }
-@media screen and (max-width: 600px ){
+/* @media screen and (max-width: 600px ){
     header {
         height: 60vh;
     }
@@ -116,8 +116,8 @@ header{
         height: 40px;
     }
    
-}
-@media screen and (max-width: 375px ){
+} */
+/* @media screen and (max-width: 375px ){
     header {
         height: 70vh;
     }
@@ -150,16 +150,16 @@ header{
         height: 30px;
     }
    
-}
+} */
 
-@media screen and (max-width: 420px ){
+/* @media screen and (max-width: 420px ){
     header {
         height: 65vh;
         font-size: 20px;
     }
     .header_container {
         /* position: relative; */
-    }
+    /* }
     .header_socials {
         margin-top: 75%;
         margin-left: -18%;
@@ -167,10 +167,10 @@ header{
     .icon_size{
         width: 30px;
         height: 30px;
-    }
-}
+    } */
+/* }  */
 
-@media screen and (max-width: 360px ){
+/* @media screen and (max-width: 360px ){
     header {
         height: 70vh;
         font-size: 20px;
@@ -189,9 +189,9 @@ header{
         width: 30px;
         height: 30px;
     }
-}
+} */
 
- @media screen and (max-width: 540px ){
+ /* @media screen and (max-width: 540px ){
     header {
         height: 80vh;
         font-size: 20px;
@@ -210,7 +210,7 @@ header{
         width: 30px;
         height: 30px;
     }
-} 
+}  */
 
 @media screen and (max-width: 280px ){
     header {
@@ -239,3 +239,35 @@ header{
         width: 269px;
     }
 } 
+
+@media screen and  (min-width : 320px) and (max-width: 518px ){
+    header{
+        height: 50vh;
+    }   
+    .header_socials {
+        display: none;
+    }
+    .header_socials , .scroll_down {
+        display: none;
+    }
+    .btn{
+        font-size: 1rem;
+    }
+    .header_container {
+        position: relative;
+    }
+    .header_socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8rem;
+        position: absolute;
+        left: 7rem;
+        bottom: 3rem;
+        top: 21rem;
+    }
+    .icon_size{
+        width: 30px;
+        height: 30px;
+    }
+}

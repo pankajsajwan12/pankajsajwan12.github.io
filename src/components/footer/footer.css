@@ -11,3 +11,24 @@
     width: 55%;
     margin: auto;
 }
+
+   /* ================================= MEDIA QUERIES (SMALL DEVICES) ===================== */
+   @media screen and  (min-width : 320px) and (max-width: 518px ){
+    .footer_main_class{
+        width: 100%;
+      }
+      .streak_img{
+          text-align: center;
+      }
+      .streak_img img {
+          width: 90%;
+      }
+      .github_calender{
+          width: 90%;
+          margin: auto;
+      }
+      .calender_font{
+        width: 80%;
+        font-size: 12px;
+      }
+ }

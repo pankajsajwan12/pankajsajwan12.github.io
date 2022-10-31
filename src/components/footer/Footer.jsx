@@ -12,7 +12,7 @@ const Footer = () => {
       <img src="https://github-readme-stats.vercel.app/api?username=pankajsajwan12&show_icons=true&locale=en" alt="pankajsajwan12" />
       </div>  
       <div className='github_calender'  >
-         <GitHubCalendar username="pankajsajwan12" year={new Date().getFullYear()} />
+         <GitHubCalendar className="calender_font" username="pankajsajwan12" year={new Date().getFullYear()} />
       </div>
     </section>
   )
