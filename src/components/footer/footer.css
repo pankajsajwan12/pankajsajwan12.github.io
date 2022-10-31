@@ -1,0 +1,13 @@
+.footer_main_class{
+  width: 100%;
+}
+.streak_img{
+    text-align: center;
+}
+.streak_img img {
+    width: 55%;
+}
+.github_calender{
+    width: 55%;
+    margin: auto;
+}

@@ -14,9 +14,9 @@ function App() {
       <Navbar />
       <About />
       <Expericence />
+      <Footer />
       <Portifilo />
       <Contact />
-
     </>
   );
 }
