@@ -19,12 +19,12 @@ const Portifilo = () => {
           </div>
           <div className="protfolio_item-image_Tech_Stack">
           <p>Monster-jobs is a source for jobs and career opportunities. Search for jobs, read career advice from Monster's job experts, and find hiring and recruiting ...</p>
-          <h4><b style={{color:'red'}}>Tech-Stack : </b> JavaScript, React JS, Github,chakra UI</h4>
+          <h4><b>Tech-Stack : </b> JavaScript, React JS, Github,chakra UI</h4>
           <h4>A collaborative project built by a team of 4 executed in 5 days.</h4>
           </div>
           <div className="portfolio_item-cta">
           <a href="https://github.com/pankajsajwan12/skinny-pot-4052" className='btn'target="_blank">Github</a>
-          <a href="monsterindia.vercel.app/" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="monsterindia.vercel.app/" className="btn btn-primary" target="_blank">Live</a>
           </div>
           
         </article>
@@ -35,12 +35,12 @@ const Portifilo = () => {
           </div>
           <div className="protfolio_item-image_Tech_Stack">
           <p>KFC is online food order website</p>
-          <h4><b style={{color:'red'}}>Tech-Stack : </b> HTML,CSS, Javascript, Git</h4>
+          <h4><b >Tech-Stack : </b> HTML,CSS, Javascript, Git</h4>
           <h4>A collaborative project built by a team of 5 executed in 5 days.</h4>
           </div>
           <div className="portfolio_item-cta">
           <a href="https://github.com/pankajsajwan12/ProjectFirst" className='btn'target="_blank">Github</a>
-          <a href="https://polite-lamington-faa8d2.netlify.app/" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="https://polite-lamington-faa8d2.netlify.app/" className="btn btn-primary" target="_blank">Live</a>
           </div>
           
         </article>
@@ -51,12 +51,12 @@ const Portifilo = () => {
           </div>
           <div className="protfolio_item-image_Tech_Stack">
           <p >strawberrynet is online e-commerce beauty products website</p>
-          <h4><b style={{color:'red'}}>Tech-Stack : </b> HTML,CSS, Javascript, Git </h4>
+          <h4><b style={{fontWeight : '700'}}>Tech-Stack : </b> HTML,CSS, Javascript, Git </h4>
           <h4>A collaborative project built by a team of 5 executed in 5 days.</h4>
           </div>
           <div className="portfolio_item-cta">
           <a href="https://github.com/KalashThakur/straberrynet" className='btn'>Github</a>
-          <a href="https://imaginative-praline-24d6d4.netlify.app/" className="btn btn-primary" target="_blank">Live Demo</a>
+          <a href="https://imaginative-praline-24d6d4.netlify.app/" className="btn btn-primary" target="_blank">Live</a>
 
           </div>
         </article>
@@ -67,7 +67,7 @@ const Portifilo = () => {
           </div>
           <div className="protfolio_item-image_Tech_Stack">
           <p>zara is online e-commerce clothes  website</p>
-          <h4><b style={{color:'red'}}>Tech-Stack : </b>HTML,CSS, Javascript, Git </h4>
+          <h4><b>Tech-Stack : </b>&nbsp;HTML,CSS, Javascript, Git </h4>
           </div>
           <div className="portfolio_item-cta">
           <a href="https://github.com/pankajsajwan12/zara-clone" className='btn'>Github</a>

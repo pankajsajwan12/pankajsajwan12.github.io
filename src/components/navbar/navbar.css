@@ -30,3 +30,87 @@ nav a.active {
     background: var(--color-bg);
     color: var(--color-white);
 }
+
+@media screen and (min-width : 670px)  and (max-width: 1400px ) {
+ nav{
+    display: none;
+ }
+}
+
+
+/* ------------------------------------- Destop NavBar --------------------------------- */
+.DestopNavBar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: black;
+    height: 50px;
+}
+.DestopNavbar_main{
+    display: flex;
+    padding: 0.7rem;
+    margin-left: 7%;
+}
+
+.navbar_text{
+    display: flex;
+    margin-left: 10%;
+}
+.navbar_text div {
+    margin-left: 1.7rem;
+}
+.reactIcons{
+    margin-top: 5px;
+}
+
+
+@media screen  and (max-width: 670px ){
+    .DestopNavBar{
+        display: none;
+    }
+}
+
+@media screen and (min-width : 768px)  and (max-width: 1200px ){
+    .DestopNavbar_main{
+        padding: 0.7rem;
+        margin-left: 4%;
+        font-size: 1rem;
+    }
+    
+    .navbar_text{
+        display: flex;
+        margin-left: 5%;
+    }
+    .navbar_text div {
+        margin-left: 0.9rem;
+        font-size: 0.9rem;
+    }
+    .reactIcons{
+        margin-top: 5px;
+    }
+} 
+
+@media screen and (min-width : 670px)  and (max-width: 768px ){
+    .DestopNavBar{
+        height: 45px;
+    }
+    .DestopNavbar_main{
+        display: flex;
+        padding: 0.7rem;
+        margin-left: 5%;
+        font-size: 0.75rem;
+    }
+    
+    .navbar_text{
+        display: flex;
+        margin-left: 5%;
+    }
+    .navbar_text div {
+        margin-left: 1rem;
+        display: flex;
+    }
+    .reactIcons{
+        margin-top: 5px;
+    }
+}
