@@ -56,12 +56,16 @@ const Navbar = () => {
             </a>
       <a
         target="_blank"
-        href="https://drive.google.com/file/d/1962FEHFufkxqs-pcLfzY5K3UuDD2HcPE/view?usp=share_link"
+        href={resume}
         download 
       >
+        <button onClick={() => {
+                window.open("https://drive.google.com/file/d/1962FEHFufkxqs-pcLfzY5K3UuDD2HcPE/view?usp=share_link")
+              }} style={{background:'none'}}>             
         <GrDocumentDownload
           className={acitveNav === "#resume" ? "active" : ""}
         />
+         </button> 
       </a>
     </nav>
   );

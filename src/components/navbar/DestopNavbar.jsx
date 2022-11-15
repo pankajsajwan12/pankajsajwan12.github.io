@@ -80,12 +80,16 @@ const DestopNavbar = () => {
           <div>
             <a
               target="_blank"
-              href="https://drive.google.com/file/d/1962FEHFufkxqs-pcLfzY5K3UuDD2HcPE/view?usp=share_link"
-              onClick={() => {
-               return( <a  href={resume} download />)
-              }}
+              href={resume}
+              download
             >
-              <AiOutlineFileText className="reactIcons" /> Resume
+              
+              <AiOutlineFileText className="reactIcons" />
+              <button onClick={() => {
+                window.open("https://drive.google.com/file/d/1962FEHFufkxqs-pcLfzY5K3UuDD2HcPE/view?usp=share_link")
+              }} style={{background : 'black'}}>
+                <p style={{color: "#61dafb",fontSize:'1rem',fontWeight:"bold",paddingLeft:'0.3rem',cursor:"pointer"}}>Resume</p>
+                </button> 
             </a>
           </div>
         </div>
