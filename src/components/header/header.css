@@ -67,14 +67,14 @@ header{
 }
 
 /* ================================= MEDIA QUERIES (MEDIUM DEVICES) ===================== */
-@media screen and (max-width: 1024px ){
+/* @media screen and (max-width: 1024px ){
    header {
        height: 50vh;     
    }
    .myPhoto {
     left: calc(50% - 11rem);
      margin-top: 3rem;
-}
+} 
    
 }
 
@@ -89,86 +89,8 @@ header{
          margin-top: 3rem;
     } 
 }
-/* @media screen and (max-width: 600px ){
-    header {
-        height: 60vh;
-    }
-    .header_socials , .scroll_down {
-        display: none;
-    }
 
-    .myPhoto {
-        left: calc(50% - 9rem);
-         margin-top: 6rem;
-    } 
-    .header_socials {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 0.8rem;
-        position: absolute;
-        left: 40%;
-        bottom: 3rem;
-        top: 2.2rem;
-    }
-    .icon_size{
-        width: 40px;
-        height: 40px;
-    }
-   
-} */
-/* @media screen and (max-width: 375px ){
-    header {
-        height: 70vh;
-    }
-    
-    .header_socials {
-        display: none;
-    }
-    .scroll_down { 
-        top: 90;
-    }
-    .myPhoto {
-        left: calc(50% - 9rem);
-         margin-top: 6rem;
-    } 
-    .header_container {
-        position: relative;
-    }
-    .header_socials {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 0.8rem;
-        position: absolute;
-        left: 8.5rem;
-        bottom: 3rem;
-        top: 17rem;
-    }
-    .icon_size{
-        width: 30px;
-        height: 30px;
-    }
-   
-} */
 
-/* @media screen and (max-width: 420px ){
-    header {
-        height: 65vh;
-        font-size: 20px;
-    }
-    .header_container {
-        /* position: relative; */
-    /* }
-    .header_socials {
-        margin-top: 75%;
-        margin-left: -18%;
-    }
-    .icon_size{
-        width: 30px;
-        height: 30px;
-    } */
-/* }  */
 
 /* @media screen and (max-width: 360px ){
     header {
@@ -191,26 +113,7 @@ header{
     }
 } */
 
- /* @media screen and (max-width: 540px ){
-    header {
-        height: 80vh;
-        font-size: 20px;
-    }
-    .header_socials {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 0.8rem;
-        position: absolute;
-        left: 13.5rem;
-        bottom: 3rem;
-        top: 3.5rem;
-    }
-    .icon_size{
-        width: 30px;
-        height: 30px;
-    }
-}  */
+
 
 @media screen and (max-width: 280px ){
     header {
@@ -240,7 +143,7 @@ header{
     }
 } 
 
-@media screen and  (min-width : 320px) and (max-width: 518px ){
+@media screen and  (min-width : 320px) and (max-width: 420px ){
     header{
         height: 50vh;
     }   
@@ -265,6 +168,29 @@ header{
         left: 7rem;
         bottom: 3rem;
         top: 21rem;
+    }
+    .icon_size{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media screen and  (min-width : 420px) and (max-width: 518px) {
+    header{
+        height: 45vh;
+    }  
+    .scroll_down {
+        display: none;
+    }
+    .header_socials {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8rem;
+        position: absolute;
+        left: 8.7rem;
+        bottom: 3rem;
+        top: 15rem;
     }
     .icon_size{
         width: 30px;

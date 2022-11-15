@@ -34,6 +34,21 @@
     font-size: 0.8rem;
 }
 
+.socialMedai{
+    text-align: center;
+    background-color: black;
+}
+.socialText{
+    padding-top: 1rem;
+    color: white;
+}
+
+.icon_size{
+    width: 30px;
+    height: 30px;
+    margin-top: 0.5rem;
+    margin-left: 0.8rem;
+}
 /* ==============================form ========================*/
 form{
     display: flex;

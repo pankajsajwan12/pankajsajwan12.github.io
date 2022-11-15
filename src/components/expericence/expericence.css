@@ -5,12 +5,15 @@
 }
 .experience_container > div {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding: 1.4rem 5rem;
     border-radius: 2rem;
     border:1px solid transparent ;
     color: white;
 }
-
+.heroImage_skill{
+    width: 90%;
+    height: 50%;
+}
 .experience_container > div:hover {
     color: black;
     background: transparent;
@@ -26,13 +29,16 @@
 .experience_content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    row-gap: 0.5rem;
 }
 .experience_details {
+    /* margin-top: -1rem; */
+    /* height: 200px; */
     display: flex;
-    gap: 1rem;
+    gap: 0rem;
 }
 .experience_details-icon {
+    text-align: center;
     margin-top: 6px;
     color: var(--color-primary);
 }

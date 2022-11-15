@@ -1,7 +1,6 @@
 import React from 'react'
-import './portifilo.css'
-import img from '../../my-assets/img.webp'
 import img2 from '../../my-assets/img2.jpg'
+import './portifilo.css'
 import img3 from '../../my-assets/img3.jpg'
 
 

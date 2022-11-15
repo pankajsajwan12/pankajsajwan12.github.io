@@ -161,9 +161,9 @@
     }
 } */
 
-@media screen and  (min-width : 320px) and (max-width: 518px ) {
+@media screen and  (min-width : 320px) and (max-width: 420px ) {
     .about_me {
-        width: 111.1%;
+        width: 110%;
         margin: 0 auto;
         margin-bottom: 5rem;
     }
@@ -177,5 +177,13 @@
     }
     .about_content p {
         margin: 1.5rem 0;
+    }
+}
+
+@media screen and  (min-width : 420px) and (max-width: 518px ){
+    .about_me {
+        width: 82%;
+        margin: 0 auto;
+        margin-bottom: 5rem;
     }
 }

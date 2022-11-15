@@ -5,6 +5,9 @@ import {RiMessengerLine} from 'react-icons/ri'
 import {FaWhatsapp} from 'react-icons/fa'
 import {useRef} from 'react';
 import emailjs from 'emailjs-com';
+import { BsLinkedin } from 'react-icons/bs'
+import { BsGithub } from 'react-icons/bs'
+import { BsTwitter } from 'react-icons/bs'
 
 const Contact = () => {
   const form = useRef();
@@ -56,6 +59,19 @@ const Contact = () => {
           <button type="submit" className="btn btn-primary">Send Message</button>
         </form>
       </div>
+
+      <div className='socialMedai'>
+            <p className='socialText'>Also Conect me on Social Media : &nbsp;</p>
+            <a href="https://www.linkedin.com/in/pankaj-singh-sajwan-6ba061224/" className='iconsHref' target="_blank">
+            <BsLinkedin className="icon_size"/>
+          </a>
+          <a href="https://github.com/pankajsajwan12" target="_blank">
+            <BsGithub  className="icon_size"/>
+         </a>
+         <a href="https://github.com/pankajsajwan12" target="_blank">
+            <BsTwitter  className="icon_size"/>
+         </a>
+         </div>
     </section>
   )
 }

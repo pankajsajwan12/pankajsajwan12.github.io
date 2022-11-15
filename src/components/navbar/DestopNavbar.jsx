@@ -6,9 +6,12 @@ import { MdOutlinePermContactCalendar } from "react-icons/md";
 import { AiOutlineFileText } from "react-icons/ai";
 import {CgWebsite} from 'react-icons/cg'
 import "./navbar.css";
+import resume from '../../my-assets/Pankaj_Singh_Sajwan_resume.pdf';
+import {useNavigate} from 'react-router-dom';
 
 const DestopNavbar = () => {
   const [acitveNav, setActiveNav] = useState("#");
+  const navigate = useNavigate();
   return (
     <div className="DestopNavBar">
       <div className="DestopNavbar_main">
@@ -76,8 +79,11 @@ const DestopNavbar = () => {
           </div>
           <div>
             <a
+              target="_blank"
               href="https://drive.google.com/file/d/1962FEHFufkxqs-pcLfzY5K3UuDD2HcPE/view?usp=share_link"
-              download
+              onClick={() => {
+               return( <a  href={resume} download />)
+              }}
             >
               <AiOutlineFileText className="reactIcons" /> Resume
             </a>

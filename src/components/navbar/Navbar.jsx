@@ -5,10 +5,13 @@ import { FiBook } from "react-icons/fi";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 import { GrDocumentDownload } from "react-icons/gr";
 import {CgWebsite} from 'react-icons/cg'
+import {useNavigate} from 'react-router-dom'
+import resume from '../../my-assets/Pankaj_Singh_Sajwan_resume.pdf'
 
 import "./navbar.css";
 const Navbar = () => {
   const [acitveNav, setActiveNav] = useState("#");
+  const navigate = useNavigate();
 
   return (
     <nav>
@@ -52,8 +55,9 @@ const Navbar = () => {
               <CgWebsite /> {" "}
             </a>
       <a
+        target="_blank"
         href="https://drive.google.com/file/d/1962FEHFufkxqs-pcLfzY5K3UuDD2HcPE/view?usp=share_link"
-        download
+        download 
       >
         <GrDocumentDownload
           className={acitveNav === "#resume" ? "active" : ""}
