@@ -23,7 +23,7 @@ const Portifilo = () => {
           </div>
           <div className="portfolio_item-cta">
           <a href="https://github.com/pankajsajwan12/skinny-pot-4052" className='btn'target="_blank">Github</a>
-          <a href="monsterindia.vercel.app/" className="btn btn-primary" target="_blank">Live</a>
+          <a href="https://monsterindia.vercel.app/" className="btn btn-primary" target="_blank">Live</a>
           </div>
           
         </article>
